@@ -12,43 +12,248 @@ Wallpaper 1:
 //your parameter variables go here!
 let rect_width  = 20;
 let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let MohawkOn = true //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = true // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = true //Dictates side borders colour on if statement
+let TopColour = true //Dictates top and bottom border colour on if statement
+let BodyColour = true //Dictates Head colour on if statement
+let colourchange = '#000000'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ffffff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
 }
-
-/////////////////////////////////
 
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = false //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = true // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = true //Dictates side borders colour on if statement
+let TopColour = true //Dictates top and bottom border colour on if statement
+let BodyColour = true //Dictates Head colour on if statement
+let colourchange = '#000000'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ffffff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
 }
+
+Wallpaper3:
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = false //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = true //Dictates side borders colour on if statement
+let TopColour = true //Dictates top and bottom border colour on if statement
+let BodyColour = true //Dictates Head colour on if statement
+let colourchange = '#000000'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ffffff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper4:
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = false //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = false //Dictates side borders colour on if statement
+let TopColour = true //Dictates top and bottom border colour on if statement
+let BodyColour = true //Dictates Head colour on if statement
+let colourchange = '#000000'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ffffff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper5
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = false //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = false //Dictates side borders colour on if statement
+let TopColour = false //Dictates top and bottom border colour on if statement
+let BodyColour = true //Dictates Head colour on if statement
+let colourchange = '#000000'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ffffff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper6
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = false //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = false //Dictates side borders colour on if statement
+let TopColour = false //Dictates top and bottom border colour on if statement
+let BodyColour = false //Dictates Head colour on if statement
+let colourchange = '#000000'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ffffff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper7
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = false //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = false //Dictates side borders colour on if statement
+let TopColour = false //Dictates top and bottom border colour on if statement
+let BodyColour = false //Dictates Head colour on if statement
+let colourchange = '#cc00ff'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ffffff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+Wallpaper8
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = false //Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = false //Dictates side borders colour on if statement
+let TopColour = false //Dictates top and bottom border colour on if statement
+let BodyColour = false //Dictates Head colour on if statement
+let colourchange = '#cc00ff'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#00f7ff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+function wallpaper_background() {
+  background(0, 255, 242); //light honeydew green colour
+
+ if (BackgroundColour) {
+    background(0, 255, 242);
+ } else {
+    background(colourchange);
+  } 
+}
+
+Wallpaper9
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = true//Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = true //Dictates side borders colour on if statement
+let TopColour = false //Dictates top and bottom border colour on if statement
+let BodyColour = false //Dictates Head colour on if statement
+let colourchange = '#9e000d'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#ddff00'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+FinalWallpaper
+
+//your parameter variables go here!
+let rect_width  = 20;
+let rect_height = 20;
+let MohawkOn = true//Enables Triangle Mowhawk when true, Ellipse when false
+let BackgroundColour = false // Changes background colour from Cyan when true to colourchange2 when false (var see below)
+let SideColour = false //Dictates side borders colour on if statement
+let TopColour = true //Dictates top and bottom border colour on if statement
+let BodyColour = false //Dictates Head colour on if statement
+let colourchange = '#cc00ff'; // decides Background colour: Note doesn't work with (,,,), brackets conflict, use hex values instead
+let colourchange2 = '#00f7ff'; //Dictates head colour on else statement; Note doesn't work with (,,,), brackets conflict, use hex values instead
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(true); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
